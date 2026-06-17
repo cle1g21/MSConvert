@@ -1,0 +1,22 @@
+# See README.md for more .sif download
+*.sif
+
+# Raw data files
+*.raw
+*.mzML
+
+# .d folder files
+*.txt
+*.pyc
+.DS_Store
+*.d/
+*.tdf
+*.tdf_bin
+*.sqlite
+*-journal
+
+# Folders to be ignored
+data_input/
+__pycache__/
+logs/
+output_data/
