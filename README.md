@@ -528,7 +528,7 @@ export WINEDEBUG=fixme-all+msgbox+relay
 
 ## Downstream use
 
-The [InstaNovo](https://github.com/instanovo-community/instanovo) project in this workspace accepts both **`.mgf`** and **`.mzML`** files as input for de novo peptide sequencing.
+The [InstaNovo](https://github.com/cle1g21/instanovo/) project in this workspace accepts both **`.mgf`** and **`.mzML`** files as input for de novo peptide sequencing.
 
 Example after conversion:
 
