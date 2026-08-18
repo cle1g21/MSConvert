@@ -6,6 +6,8 @@ This folder contains a repeatable pipeline to convert vendor mass spectrometry r
 
 The pipeline runs **ProteoWizard MSConvert** inside an **Apptainer** container. Apptainer is the production container runtime on the Iridis cluster. You do not need Docker or root access.
 
+**GitHub:** `*.sif`, Bruker `.d` folders, `.raw` / `.mzML` / `.mgf`, `input_data/`, `output_data/`, and `logs/` are gitignored (see this folder’s `.gitignore` and the repository-root `.gitignore`). Pull the ProteoWizard image locally as described below; do not commit spectra or the Apptainer image.
+
 ---
 
 ## Overview
